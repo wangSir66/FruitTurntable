@@ -1,0 +1,61 @@
+{
+  "log": {
+    "level": 4
+  },
+  "common": {
+    "outputName": "FruitGame",
+    "mainBundleCompressionType": "merge_all_json",
+    "platform": "web-mobile",
+    "name": "FruitGame",
+    "md5Cache": true,
+    "replaceSplashScreen": true
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1788234393805": {
+        "id": "1788234393805",
+        "progress": 1,
+        "state": "success",
+        "message": "2026-9-9 10:17 Build success in 11261 ms!",
+        "options": {
+          "name": "FruitGame",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": true,
+          "sourceMaps": false,
+          "replaceSplashScreen": true,
+          "mainBundleCompressionType": "merge_all_json",
+          "mainBundleIsRemote": false,
+          "mergeStartScene": false,
+          "experimentalEraseModules": false,
+          "compressTexture": true,
+          "packAutoAtlas": true,
+          "startScene": "24076fd5-71ae-4ab8-b3e4-fd8ca8679388",
+          "scenes": [
+            {
+              "url": "db://assets/Fruit/scenes/FruitScene.scene",
+              "uuid": "24076fd5-71ae-4ab8-b3e4-fd8ca8679388",
+              "inBundle": false
+            }
+          ],
+          "outputName": "FruitGame",
+          "packages": {
+            "web-mobile": {
+              "orientation": "portrait",
+              "polyfills": {
+                "asyncFunctions": true
+              }
+            },
+            "cocos-service": {
+              "configID": "b26b34",
+              "services": []
+            }
+          }
+        },
+        "time": "2026-9-9 10:17",
+        "dirty": false
+      }
+    }
+  }
+}
