@@ -75,6 +75,7 @@ export class SceneCtrl extends Component {
     private async onGameStart() {
         this.topNode.active = true;
         this.startNode.active = true;
+        if (!this.fruitPrefab) await this.loadPetPrefab();
         tween(this.startNode).delay(1).call(() => {
             this.clearFruits();
             this.startNode.active = false;
